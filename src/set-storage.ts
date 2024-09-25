@@ -1,6 +1,6 @@
 export async function setStorage(cache: { [key: string]: any }, key?: string) {
-  const pre = (await figma.clientStorage.getAsync(key ?? 'cache')) || {};
+  const pre = (await mg.clientStorage.getAsync(key ?? 'cache')) || {};
   const newCache = { ...pre, ...cache };
-  await figma.clientStorage.setAsync('cache', newCache);
+  await mg.clientStorage.setAsync('cache', newCache);
   return newCache;
 }

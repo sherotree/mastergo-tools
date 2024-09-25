@@ -9,15 +9,8 @@
     "lib": ["dom", "es2017"],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+    "typeRoots": ["./node_modules/@types", "./node_modules/@mastergo/plugin-typings"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "lib", "es"]
-  // "files": [],
-  // "include": [],
-  // "references": [
-  //   {
-  //     "path": "./tsconfig.lib.json"
-  //   }
-  // ]
 }

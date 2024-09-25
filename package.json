@@ -23,7 +23,7 @@
     "react": ">=16.9.0"
   },
   "devDependencies": {
-    "@figma/plugin-typings": "1.100.2",
+    "@mastergo/plugin-typings": "^2.5.0",
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-image": "3.0.2",
     "@svgr/rollup": "6.5.1",
